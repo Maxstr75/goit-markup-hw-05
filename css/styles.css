@@ -675,10 +675,7 @@ color: #FFFFFF;
     top: 0;
 }
 
-/* .backdrop.is-hidden .modal {
-    transform: scale(1.5) rotate(180deg) translate(1000px);
-    transition: transform 1000ms;
-} */
+
 
 .modal {
     width: 528px;
@@ -707,11 +704,6 @@ color: #FFFFFF;
     justify-content: center;
 }
 
-/* .is-hidden {
-    visibility: hidden;
-    opacity: 0;
-    pointer-events: none;
-} */
 
 
 /*---------------Портфолио-------*/
