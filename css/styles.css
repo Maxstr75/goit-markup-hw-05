@@ -66,7 +66,7 @@ body {
 
 /*-----------------HEADER------------*/
 .page-header {
-  position: fixed;
+  position: absolute;
   width: 100%;
   top: 0;
   left: 0;
@@ -350,6 +350,31 @@ rgba(0, 0, 0, 0.15);
 
 .work-item:not(:last-child) {
   margin-right: 30px;
+}
+
+.work-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.work-item > .work-item-text {
+position: absolute;
+top: 224px;
+right: 0;
+margin: 0;
+width: 370px;
+height: 70px;
+background: rgba(47, 48, 58, 0.8);
+font-family: Roboto;
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+padding-top: 27px;
+text-align: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF; 
 }
 
 .work-title {
