@@ -683,6 +683,7 @@ color: #FFFFFF;
     background-color: rgba(0, 0, 0, 0.418);
     position: fixed;
     top: 0;
+    transition-property: transform;
     transition: opacity 1000ms, visibility 1000ms;
 }
 
